@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"> </head>
+
+<body>
+	<main class="container">
+		<canvas id="game" width="600" height="400"> Your browser do not support HTML5 canvas. </canvas>
+		<div id="stats">
+			<div class="score">Your Score: <span id="my_score"></span></div>
+			<div class="score">High Score: <span id="high_score"></span></div>
+			<button id="reset_btn" onClick="resetScore()">Reset Score</button>
+		</div>
+		<div id="overlay">
+			<span id="current_score"></span> 
+			<br> 
+			<a onClick="init()" id="play" href="#">Play Game</a> 
+		</div>
+	</main>
+	<!--JS-->
+	<script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
